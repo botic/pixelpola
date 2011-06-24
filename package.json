@@ -1,0 +1,8 @@
+{
+    "name": "pixelpola",
+    "version": "0.0.1",
+    "description": "Image IO lib for RingoJS, wraps ImageMagick.",
+    "keywords": ["rhino", "ringo", "imageio", "imagemagick"],
+    "author": "Philipp Naderer (http://naderer.biz)",
+    "main": "lib/main.js"
+}
