@@ -1,3 +1,3 @@
 # pixelpola
 
-[Imagemagick](http://www.imagemagick.org/) wrapper for [Ringo](http://ringojs.org/).
+A simple [ImageMagick](http://www.imagemagick.org/) wrapper for [RingoJS](http://ringojs.org/).
