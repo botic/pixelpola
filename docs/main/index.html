@@ -1,0 +1,478 @@
+<!DOCTYPE html >
+
+<html lang="de" dir="ltr">
+<head>
+    <title>main - pixelpola_lib</title>
+    <link rel="shortcut icon" href="http://ringojs.org/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="http://ringojs.org/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="stylesheet" href="../static/jsdoc.css" />
+<script type="text/javascript" src="../static/jquery.js"></script>
+<script type="text/javascript" src="../static/jsdoc.js"></script>
+<script>
+$(document).ready(jsdocSetup);
+</script>
+
+</head>
+
+<body>
+<div class="wrap">
+
+    <div class="main">
+        <div class="content">
+                    <h1 class="modulename">Module main</h1>
+            <div class="fileoverview">
+                <p>Wrapper for ImageMagick. Tested with ImageMagick 6.6.7-1 2011-01-29 Q16 &mdash; <a href="http://www.imagemagick.org">http://www.imagemagick.org</a></p>
+
+
+            </div>
+
+            <div class="classoverview">
+
+                                <div>
+                    <h3>Functions</h3>
+                    <ul class="propertyoverview">
+                                                <li>
+                            <a href="#getColorspace" class="jsdoc-title"> getColorspace</a>(src)
+                        </li>
+                                                <li>
+                            <a href="#getCompression" class="jsdoc-title"> getCompression</a>(src)
+                        </li>
+                                                <li>
+                            <a href="#getDepth" class="jsdoc-title"> getDepth</a>(src)
+                        </li>
+                                                <li>
+                            <a href="#getEXIF" class="jsdoc-title"> getEXIF</a>(src)
+                        </li>
+                                                <li>
+                            <a href="#getIPTC" class="jsdoc-title"> getIPTC</a>(src)
+                        </li>
+                                                <li>
+                            <a href="#getQuality" class="jsdoc-title"> getQuality</a>(src)
+                        </li>
+                                                <li>
+                            <a href="#getSize" class="jsdoc-title"> getSize</a>(src)
+                        </li>
+                                                <li>
+                            <a href="#resize" class="jsdoc-title"> resize</a>(src, dest, width, height, flag)
+                        </li>
+                                                <li>
+                            <a href="#resizePixelAreaCountLimit" class="jsdoc-title"> resizePixelAreaCountLimit</a>(src, dest, pixelCount)
+                        </li>
+                                                <li>
+                            <a href="#resizeToPercent" class="jsdoc-title"> resizeToPercent</a>(src, dest, percentage)
+                        </li>
+                        </ul>
+                </div>
+                <div class="classes">
+                    </div>
+            </div>
+                <hr/>
+                <div class="details">
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="getColorspace">
+                            <h3>
+                                <span class="itemtitle"><a id="getColorspace" href="#getColorspace" class="itemtitle itemname">getColorspace</a></span>
+                                <span class="itemtitle light">(src)</span></h3>
+                            <div>
+                                <p>Retrieves the colorspace of the image.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>String</td>
+                                        <td> the colorspace's name</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="getCompression">
+                            <h3>
+                                <span class="itemtitle"><a id="getCompression" href="#getCompression" class="itemtitle itemname">getCompression</a></span>
+                                <span class="itemtitle light">(src)</span></h3>
+                            <div>
+                                <p>Retrieves the compression algorithm used to encode the image.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>String</td>
+                                        <td> the compression algorithm's name</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="getDepth">
+                            <h3>
+                                <span class="itemtitle"><a id="getDepth" href="#getDepth" class="itemtitle itemname">getDepth</a></span>
+                                <span class="itemtitle light">(src)</span></h3>
+                            <div>
+                                <p>Retrieves the depth of the image.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>Number</td>
+                                        <td> the depth of the image</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="getEXIF">
+                            <h3>
+                                <span class="itemtitle"><a id="getEXIF" href="#getEXIF" class="itemtitle itemname">getEXIF</a></span>
+                                <span class="itemtitle light">(src)</span></h3>
+                            <div>
+                                <p>Extracts the EXIF records out of an image.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>Object</td>
+                                        <td> an object containing all EXIF fields of an image.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="getIPTC">
+                            <h3>
+                                <span class="itemtitle"><a id="getIPTC" href="#getIPTC" class="itemtitle itemname">getIPTC</a></span>
+                                <span class="itemtitle light">(src)</span></h3>
+                            <div>
+                                <p>Extracts the IPTC records out of an image.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>Object</td>
+                                        <td> an object containing all IPTC fields of an image.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="getQuality">
+                            <h3>
+                                <span class="itemtitle"><a id="getQuality" href="#getQuality" class="itemtitle itemname">getQuality</a></span>
+                                <span class="itemtitle light">(src)</span></h3>
+                            <div>
+                                <p>Retrieves the encoding quality of the image.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>String</td>
+                                        <td> the quality string</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="getSize">
+                            <h3>
+                                <span class="itemtitle"><a id="getSize" href="#getSize" class="itemtitle itemname">getSize</a></span>
+                                <span class="itemtitle light">(src)</span></h3>
+                            <div>
+                                <p>Retrieves the size of the image.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>Array</td>
+                                        <td> array containing the width and the height</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="resize">
+                            <h3>
+                                <span class="itemtitle"><a id="resize" href="#resize" class="itemtitle itemname">resize</a></span>
+                                <span class="itemtitle light">(src, dest, width, height, flag)</span></h3>
+                            <div>
+                                <p>Resizes the image to the given size.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">dest</td>
+                                        <td>path to the destination file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>Number</td>
+                                        <td class="paramname">width</td>
+                                        <td>destination file's boundary width</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>Number</td>
+                                        <td class="paramname">height</td>
+                                        <td>destination file's boundary height</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">flag</td>
+                                        <td>ImageMagick flag: '!' Ignore Aspect Ratio, '&gt;' Only Shrink Larger,
+   '&lt;' Only Enlarge Smaller, '^' Fill Given Area</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>String</td>
+                                        <td> ImageMagick output, default is none.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="resizePixelAreaCountLimit">
+                            <h3>
+                                <span class="itemtitle"><a id="resizePixelAreaCountLimit" href="#resizePixelAreaCountLimit" class="itemtitle itemname">resizePixelAreaCountLimit</a></span>
+                                <span class="itemtitle light">(src, dest, pixelCount)</span></h3>
+                            <div>
+                                <p>Resizes an image to contain at most the the given number of pixels.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">dest</td>
+                                        <td>path to the destination file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>Number</td>
+                                        <td class="paramname">pixelCount</td>
+                                        <td>amount of pixels at most in the resulting image.</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>String</td>
+                                        <td> ImageMagick output, default is none.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="resizeToPercent">
+                            <h3>
+                                <span class="itemtitle"><a id="resizeToPercent" href="#resizeToPercent" class="itemtitle itemname">resizeToPercent</a></span>
+                                <span class="itemtitle light">(src, dest, percentage)</span></h3>
+                            <div>
+                                <p>Resizes the image by the given percentage.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">dest</td>
+                                        <td>path to the destination file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>Number</td>
+                                        <td class="paramname">percentage</td>
+                                        <td>amount to scale to</td>
+                                    </tr>
+                                    </table>
+                            </div>
+                                                        <div>
+                                <h4>Returns</h4>
+                                <table>
+                                    <tr>
+                                        <td>String</td>
+                                        <td> ImageMagick output, default is none.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
+                    </div>
+            </div>
+        </div>
+
+
+
+    <div class="menu" style="margin-top: 1em; font-size: 13px;">
+    <p>
+        <a class="repositoryname" href="../">pixelpola_lib </a>
+    </p>
+
+        Filter:<br />
+    <input id="jsdoc-leftnavsearch" type="search" size="14">
+    <ul class="jsdoc-leftnav leftnav">
+                <li><a href="../main/"> main </a></li>
+        </ul>
+
+
+</div>
+</div>
+</body>
+</html>
+
+
+
+
