@@ -33,6 +33,9 @@ $(document).ready(jsdocSetup);
                     <h3>Functions</h3>
                     <ul class="propertyoverview">
                                                 <li>
+                            <a href="#addWatermarkImage" class="jsdoc-title"> addWatermarkImage</a>(src, watermark, dest, options)
+                        </li>
+                                                <li>
                             <a href="#getColorspace" class="jsdoc-title"> getColorspace</a>(src)
                         </li>
                                                 <li>
@@ -69,6 +72,52 @@ $(document).ready(jsdocSetup);
             </div>
                 <hr/>
                 <div class="details">
+                                        <!-- tpl-docitem -->
+                    <div>
+                        <div class="docitem" docitem="addWatermarkImage">
+                            <h3>
+                                <span class="itemtitle"><a id="addWatermarkImage" href="#addWatermarkImage" class="itemtitle itemname">addWatermarkImage</a></span>
+                                <span class="itemtitle light">(src, watermark, dest, options)</span></h3>
+                            <div>
+                                <p>Adds a watermark to the image.</p>
+
+
+                            </div>
+                                                        <div>
+                                <h4>Parameters</h4>
+                                <table>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">src</td>
+                                        <td>path to the source file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">watermark</td>
+                                        <td>path to the watermark file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>String</td>
+                                        <td class="paramname">dest</td>
+                                        <td>path to the destination file</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>Object</td>
+                                        <td class="paramname">options</td>
+                                        <td>the options object. Supports the following properties:
+       <ul>
+       <li>brightness: brightness percentage of the watermark image. Default 50.
+       <li>saturation: saturation percentage of the watermark image. 0 will add b/w watermark, 100 keeps the src image's colors. Default 50.
+       <li>gravity: possible values: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast.
+       <li>geometry: see http://www.imagemagick.org/script/command-line-processing.php#geometry
+       </ul></td>
+                                    </tr>
+                                    </table>
+                            </div>
+                            </div>
+                        <hr/>
+                    </div>
+
                                         <!-- tpl-docitem -->
                     <div>
                         <div class="docitem" docitem="getColorspace">
@@ -458,13 +507,13 @@ $(document).ready(jsdocSetup);
 
     <div class="menu" style="margin-top: 1em; font-size: 13px;">
     <p>
-        <a class="repositoryname" href="../">pixelpola_lib </a>
+        <a class="repositoryname" href="../index.html">pixelpola_lib </a>
     </p>
 
         Filter:<br />
     <input id="jsdoc-leftnavsearch" type="search" size="14">
     <ul class="jsdoc-leftnav leftnav">
-                <li><a href="../main/"> main </a></li>
+                <li><a href="../main/index.html"> main </a></li>
         </ul>
 
 
